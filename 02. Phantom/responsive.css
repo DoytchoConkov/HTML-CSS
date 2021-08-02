@@ -1,0 +1,30 @@
+@media all and (max-width: 900px) {
+    .tiles .style1, .tiles .style2, .tiles .style3, .tiles .style4, .tiles .style5, .tiles .style6 {
+        width: calc(50% - 2.5em);
+    }
+}
+
+@media all and (max-width: 600px) {
+    .tiles .style1, .tiles .style2, .tiles .style3, .tiles .style4, .tiles .style5, .tiles .style6 {
+        width: calc(100% - 2.5em);
+    }
+    #footer>.inner {
+        flex-direction: column-reverse;
+    }
+    
+    .copyright {
+        display: none;
+    }
+
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #footer > .inner section:nth-child(2) {
+        width: calc(100% - 2.5em);
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+
+}
